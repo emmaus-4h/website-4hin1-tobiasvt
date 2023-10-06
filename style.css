@@ -5,7 +5,7 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-/*  * {border: 1px dotted black;}   */
+  /* * {border: 1px dotted black;}  */
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -92,10 +92,11 @@ nav ul {                        /* <ul> die child is van <nav> */
   background-color: #dddddd;
   overflow: hidden;
 }
-
-nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
-  float:left;
+.inhoud {
+  float: left;  
+  padding-right: 10px;
 }
+
 
 nav li a {
   display: block;
@@ -119,19 +120,33 @@ nav li a.active {
 /* Indeling en opmaak voor hoofdpagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
+.mainpage {
+
+}
 
 .item-plaatje {
-  float: left;
+  float: right;
   width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  padding: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  margin-left:15px ;
 }
 
 .item-tekst {
-  float: right;
-  width: 450px;
+  /*float: right; */
+  
+  
 }
 
 /************************* SUBPAGINA *************************/
+.NS-plaatje {
+
+  float: right;
+  width: 250px;
+  padding: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  margin-left:15px ;
+}
+
+
 
 /* Indeling en opmaak voor subpagina */
 
