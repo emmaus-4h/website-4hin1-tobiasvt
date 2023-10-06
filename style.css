@@ -142,8 +142,8 @@ nav li a.active {
 
   float: right;
   width: 250px;
-  padding: 15px; /* zorgt dat plaatje niet tegen tekst komt */
   margin-left:15px ;
+  text-align: justify;   
 }
 
 
