@@ -10,7 +10,7 @@
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
-/*  * {background-color: rgba(0,0,0,5%);}  */
+/* * {background-color: rgba(0,0,0,5%);}  */
 
 
 /************************* BASISINSTELLINGEN *************************/
@@ -31,6 +31,7 @@ div {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
                                      (anders tellen de floats erin niet mee voor de hoogte
                                      en wordt dus wel eens hoogte 0) */
+  margin:5px;
 }
 
 
@@ -60,7 +61,7 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 
 p {
   margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: left;            /* tekst links en rechts uitvullen */
 }
 
 img {
@@ -86,6 +87,7 @@ a:hover {                         /* <a> als je er met de muis op staat */
 /* navigatiebalk voor alle pagina's */
 
 nav ul {                        /* <ul> die child is van <nav> */
+  float:left;
   list-style-type: none;
   margin: auto;
   padding: 0;
@@ -140,10 +142,7 @@ nav li a.active {
 /************************* SUBPAGINA *************************/
 .NS-plaatje {
 
-  float: right;
-  width: 250px;
-  margin-left:15px ;
-  text-align: justify;   
+  width:250px;  
 }
 
 
