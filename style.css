@@ -5,7 +5,7 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-  /* * {border: 1px dotted black;}  */
+  /* * {border: 1px dotted black;}  
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -23,8 +23,8 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background-color: #fef5be;    /* achtergrondkleur lichtgrijs */
+  color: #000000;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -86,12 +86,17 @@ a:hover {                         /* <a> als je er met de muis op staat */
 
 /* navigatiebalk voor alle pagina's */
 
+.NS-plaatje {
+
+  width:155px;  
+}
+
 nav ul {                        /* <ul> die child is van <nav> */
   float:left;
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #dddddd;
+  background-color: #000657;
   overflow: hidden;
 }
 .inhoud {
@@ -128,7 +133,7 @@ nav li a.active {
 
 .item-plaatje {
   float: right;
-  width: 250px;
+ 
   padding: 15px; /* zorgt dat plaatje niet tegen tekst komt */
   margin-left:15px ;
 }
@@ -140,10 +145,7 @@ nav li a.active {
 }
 
 /************************* SUBPAGINA *************************/
-.NS-plaatje {
 
-  width:250px;  
-}
 
 
 
