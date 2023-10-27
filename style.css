@@ -5,7 +5,7 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-  /* * {border: 1px dotted black;}  
+   * {border: 1px dotted black;}  
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -114,7 +114,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #aaaaaa;
+  background-color: #6c6c6a;
 }
 
 nav li a.active {
@@ -146,8 +146,15 @@ nav li a.active {
 
 /************************* SUBPAGINA *************************/
 
+.ervaring1 {
+clear: both;
+  float: left;
+}
+ervaring2{
 
-
+clear: both;
+  float: right;
+}
 
 /* Indeling en opmaak voor subpagina */
 
