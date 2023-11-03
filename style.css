@@ -5,7 +5,7 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-   * {border: 1px dotted black;}  
+  /* * {border: 1px dotted black;}  
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -21,7 +21,9 @@
   box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
   margin: 0px;                    /* standaard marge 0 pixels */
 }
-
+html {
+  width: 100%;
+}
 html, body {                      /* geldt voor html en body */
   background-color: #fef5be;    /* achtergrondkleur lichtgrijs */
   color: #000000;               /* tekstkleur donkergrijs */
@@ -67,7 +69,9 @@ p {
 img {
   margin: 10px 0px;
 }
-
+img.inline {
+  margin: 0px;
+}
 a {
   color: blue;
   text-decoration: none;
@@ -90,7 +94,11 @@ a:hover {                         /* <a> als je er met de muis op staat */
 
   width:155px;  
 }
+.NS-plaatje:hover {
 
+  background-color: red;
+  
+}
 nav ul {                        /* <ul> die child is van <nav> */
   float:left;
   list-style-type: none;
@@ -146,14 +154,21 @@ nav li a.active {
 
 /************************* SUBPAGINA *************************/
 
-.ervaring1 {
+.ervaring {
 clear: both;
-  float: left;
 }
-ervaring2{
-
-clear: both;
-  float: right;
+.ervaringenimgL {
+float:  left;
+  margin-right: 5px;
+  display: block;
+}
+.ervaringenimgR {
+float: right;
+  margin-left: 5px;
+  display: block;
+}
+.ervaringR {
+  text-align: right;
 }
 
 /* Indeling en opmaak voor subpagina */
