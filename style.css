@@ -5,7 +5,7 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-  /* * {border: 1px dotted black;}  
+ /* * {border: 1px dotted black;}  
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -135,9 +135,7 @@ nav li a.active {
 /* Indeling en opmaak voor hoofdpagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
-.mainpage {
 
-}
 
 .item-plaatje {
   float: right;
@@ -170,7 +168,15 @@ float: right;
 .ervaringR {
   text-align: right;
 }
+.sprintersU {
+  clear: both;
+}
 
+.sprintersimg {
+  float:  left;
+  margin-right: 5px;
+  display: block;
+}
 /* Indeling en opmaak voor subpagina */
 
 /* verzin deze zelf... */
