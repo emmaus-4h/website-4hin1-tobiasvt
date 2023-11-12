@@ -82,8 +82,8 @@ a:hover {                         /* <a> als je er met de muis op staat */
 }
 
 .smalltext {
-  text-align: center;
-  font-size: 0.7em;
+  text-align: left;
+  
 }
 
 /************************* NAVIGATIEBALK *************************/
