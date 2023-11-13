@@ -168,15 +168,25 @@ float: right;
 .ervaringR {
   text-align: right;
 }
-.sprintersU {
+.treinenU {
   clear: both;
 }
 
-.sprintersimg {
+.treinenimg {
   float:  left;
   margin-right: 5px;
   display: block;
 }
+.tableTr {
+float: right;
+tekst-align: center;
+margin-left: 5px;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+} 
+
 /* Indeling en opmaak voor subpagina */
 
 /* verzin deze zelf... */
