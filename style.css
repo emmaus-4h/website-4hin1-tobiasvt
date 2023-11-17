@@ -5,7 +5,7 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-/* * {border: 1px dotted black;}  
+ * {border: 1px dotted black;}  
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -151,29 +151,48 @@ nav li a.active {
 }
 
 /************************* SUBPAGINA *************************/
-
+#ERVARINGEN {
+  clear: both;
+}
 .ervaring {
-clear: both;
+
+  height: 175px;
 }
 .ervaringenimgL {
+  height: 100%;
 float:  left;
   margin-right: 5px;
   display: block;
+  
 }
 .ervaringenimgR {
+  height: 100%;
 float: right;
   margin-left: 5px;
   display: block;
 }
+.langwerpig {
+aspect-ratio: 3/2 ;
+  
+}
+.ervaringL{
+  
+}
 .ervaringR {
   text-align: right;
 }
+.treinen {
+   height: 175px;
+}
 .treinenU {
   clear: both;
+  height: 175px;
 }
 
 .treinenimg {
   float:  left;
+  height: 100%;
+  
   margin-right: 5px;
   display: block;
 }
