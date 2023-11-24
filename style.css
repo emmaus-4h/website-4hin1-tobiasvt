@@ -5,8 +5,8 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
- * {border: 1px dotted black;}  
-  
+/* * {border: 1px dotted black;}  
+
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
@@ -83,7 +83,7 @@ a:hover {                         /* <a> als je er met de muis op staat */
 
 .smalltext {
   text-align: left;
-  
+
 }
 
 /************************* NAVIGATIEBALK *************************/
@@ -97,7 +97,7 @@ a:hover {                         /* <a> als je er met de muis op staat */
 .NS-plaatje:hover {
 
   background-color: red;
-  
+
 }
 nav ul {                        /* <ul> die child is van <nav> */
   float:left;
@@ -139,31 +139,33 @@ nav li a.active {
 
 .item-plaatje {
   float: right;
- 
+
   padding: 15px; /* zorgt dat plaatje niet tegen tekst komt */
   margin-left:15px ;
 }
 
 .item-tekst {
-  /*float: right; */
-  
-  
+  float: right; 
+
+
 }
 
 /************************* SUBPAGINA *************************/
 #ERVARINGEN {
   clear: both;
 }
+#ervaringK {
+ 
+}
 .ervaring {
 
-  height: 175px;
+  height: 200px;
 }
 .ervaringenimgL {
   height: 100%;
 float:  left;
-  margin-right: 5px;
+ margin-right: 5px; 
   display: block;
-  
 }
 .ervaringenimgR {
   height: 100%;
@@ -172,14 +174,14 @@ float: right;
   display: block;
 }
 .langwerpig {
-aspect-ratio: 3/2 ;
-  
+  aspect-ratio: 2/3 ;
+  width: 30%;
 }
 .ervaringL{
-  
+
 }
 .ervaringR {
-  text-align: right;
+   text-align: right; 
 }
 .treinen {
    height: 175px;
@@ -192,7 +194,7 @@ aspect-ratio: 3/2 ;
 .treinenimg {
   float:  left;
   height: 100%;
-  
+  aspect-ratio: 3/2 ;
   margin-right: 5px;
   display: block;
 }
