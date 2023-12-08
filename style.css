@@ -5,7 +5,7 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-/* * {border: 1px dotted black;}  
+ /* * {border: 1px dotted black;}  
 
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -68,6 +68,11 @@ p {
 
 img {
   margin: 10px 0px;
+  transition: box-shadow .5s;
+}
+img:hover{
+  box-shadow: 0 0 3px;
+  
 }
 img.inline {
   margin: 0px;
@@ -155,7 +160,7 @@ nav li a.active {
   clear: both;
 }
 #ervaringK {
- 
+
 }
 .ervaring {
 
@@ -186,6 +191,9 @@ float: right;
 .treinen {
    height: 175px;
 }
+.Under {
+  clear: both;
+}
 .treinenU {
   clear: both;
   height: 175px;
@@ -200,7 +208,12 @@ float: right;
 }
 
 .kop {
-  width: ;
+  width: 300px;
+  aspect-ratio: 2/3;
+  margin-left: 10px;
+}
+#sprinterKop{
+  width: 200px;
   aspect-ratio: 3/2;
   margin-left: 10px;
 }
@@ -208,13 +221,15 @@ float: right;
   width: 90%;
   aspect-ratio: 3/2;
   margin-left: 10px;
-  
+
 }
 .tableTr {
 float: right;
 tekst-align: center;
 margin-left: 5px;
 }
+
+
 table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
