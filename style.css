@@ -117,11 +117,7 @@ a:hover {                         /* <a> als je er met de muis op staat */
   background-color: rgba(245,231,142,0.5);
 }
 
-/*.NS-plaatje:hover .NS-logo {
-  opacity: 0.3;
-    background-color: red; 
 
-}*/
 .NS-plaatje:hover .middle-T {
   opacity: 1;
 
