@@ -25,7 +25,7 @@ html {
   width: 100%;
 }
 html, body {                      /* geldt voor html en body */
-  background-color: #fef5be;    /* achtergrondkleur lichtgrijs */
+  background-color: rgba(245,231,142,0.5);    /* achtergrondkleur lichtgrijs */
   color: #000000;               /* tekstkleur donkergrijs */
 }  
 
@@ -42,7 +42,7 @@ div {                             /* geldt voor div */
 /* Indeling en opmaak voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 98%;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
@@ -71,7 +71,7 @@ img {
   transition: box-shadow .5s;
 }
 img:hover{
-  box-shadow: 0 0 3px;
+  box-shadow: 0 0 10px;
   
 }
 img.inline {
@@ -96,14 +96,49 @@ a:hover {                         /* <a> als je er met de muis op staat */
 /* navigatiebalk voor alle pagina's */
 
 .NS-plaatje {
-
-  width:155px;  
+  position: relative;
+  width:170px;  
 }
-.NS-plaatje:hover {
-
-  background-color: red;
+.NS-logo{
+  display: block;
+  width: 100%;
 
 }
+.middle-T {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(245,231,142,0.5);
+}
+
+/*.NS-plaatje:hover .NS-logo {
+  opacity: 0.3;
+    background-color: red; 
+
+}*/
+.NS-plaatje:hover .middle-T {
+  opacity: 1;
+
+}
+.NStekst {
+  color: black;
+  font-size: 10px;
+  background-color: rgba(245,231,142,0.7);
+overflow: auto;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
 nav ul {                        /* <ul> die child is van <nav> */
   float:left;
   list-style-type: none;
@@ -234,7 +269,9 @@ table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
 } 
-
+.TreinTxt {
+  overflow: auto;
+}
 /* Indeling en opmaak voor subpagina */
 
 /* verzin deze zelf... */
